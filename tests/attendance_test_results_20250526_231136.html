@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Attendance System Test Results</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1 { color: #333; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; }
+                th { background-color: #f2f2f2; }
+                .pass { background-color: #dff0d8; }
+                .fail { background-color: #f2dede; }
+            </style>
+        </head>
+        <body>
+            <h1>Attendance System Test Results</h1>
+            <p>Execution Time: 2025-05-26 23:11:36</p>
+            <table>
+                <tr>
+                    <th>Test ID</th>
+                    <th>Test Name</th>
+                    <th>Status</th>
+                    <th>Timestamp</th>
+                    <th>Comments</th>
+                </tr>
+        
+                <tr class="pass">
+                    <td>TC_01</td>
+                    <td>Page Loading Test</td>
+                    <td>PASS</td>
+                    <td>2025-05-26 23:10:48</td>
+                    <td></td>
+                </tr>
+            
+                <tr class="pass">
+                    <td>TC_02</td>
+                    <td>Form Elements Test</td>
+                    <td>PASS</td>
+                    <td>2025-05-26 23:10:49</td>
+                    <td></td>
+                </tr>
+            
+                <tr class="pass">
+                    <td>TC_03</td>
+                    <td>Sign In Test</td>
+                    <td>PASS</td>
+                    <td>2025-05-26 23:10:56</td>
+                    <td></td>
+                </tr>
+            
+                <tr class="pass">
+                    <td>TC_04</td>
+                    <td>Sign Out Test</td>
+                    <td>PASS</td>
+                    <td>2025-05-26 23:11:03</td>
+                    <td></td>
+                </tr>
+            
+                <tr class="fail">
+                    <td>TC_05</td>
+                    <td>Sign In Empty Fields Test</td>
+                    <td>FAIL</td>
+                    <td>2025-05-26 23:11:06</td>
+                    <td>False is not true : Sign In did not show error for missing Email or Name</td>
+                </tr>
+            
+                <tr class="fail">
+                    <td>TC_06</td>
+                    <td>Sign Out Empty Fields Test</td>
+                    <td>FAIL</td>
+                    <td>2025-05-26 23:11:10</td>
+                    <td>False is not true : Sign Out did not show error for missing Email or Name</td>
+                </tr>
+            
+                <tr class="pass">
+                    <td>TC_07</td>
+                    <td>Get Location Updates Fields Test</td>
+                    <td>PASS</td>
+                    <td>2025-05-26 23:11:15</td>
+                    <td></td>
+                </tr>
+            
+                <tr class="fail">
+                    <td>TC_08</td>
+                    <td>Invalid Email Validation</td>
+                    <td>FAIL</td>
+                    <td>2025-05-26 23:11:20</td>
+                    <td>'email' not found in 'location captured successfully!' : Email validation error message not found</td>
+                </tr>
+            
+                <tr class="fail">
+                    <td>TC_09</td>
+                    <td>Missing Name Validation</td>
+                    <td>FAIL</td>
+                    <td>2025-05-26 23:11:26</td>
+                    <td>'name' not found in 'location captured successfully!' : Name validation error message not found</td>
+                </tr>
+            
+                <tr class="fail">
+                    <td>TC_10</td>
+                    <td>Invalid Location Validation</td>
+                    <td>FAIL</td>
+                    <td>2025-05-26 23:11:30</td>
+                    <td>'location' not found in '' : Location validation error message not found</td>
+                </tr>
+            
+                <tr class="pass">
+                    <td>TC_11</td>
+                    <td>Page Load Performance Test</td>
+                    <td>PASS</td>
+                    <td>2025-05-26 23:11:34</td>
+                    <td>Load time: 1.56s (Threshold: 5.0s)</td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        

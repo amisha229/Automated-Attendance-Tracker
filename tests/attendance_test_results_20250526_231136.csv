@@ -1,0 +1,12 @@
+Test ID,Test Name,Status,Timestamp,Comments
+TC_01,Page Loading Test,PASS,2025-05-26 23:10:48,
+TC_02,Form Elements Test,PASS,2025-05-26 23:10:49,
+TC_03,Sign In Test,PASS,2025-05-26 23:10:56,
+TC_04,Sign Out Test,PASS,2025-05-26 23:11:03,
+TC_05,Sign In Empty Fields Test,FAIL,2025-05-26 23:11:06,False is not true : Sign In did not show error for missing Email or Name
+TC_06,Sign Out Empty Fields Test,FAIL,2025-05-26 23:11:10,False is not true : Sign Out did not show error for missing Email or Name
+TC_07,Get Location Updates Fields Test,PASS,2025-05-26 23:11:15,
+TC_08,Invalid Email Validation,FAIL,2025-05-26 23:11:20,'email' not found in 'location captured successfully!' : Email validation error message not found
+TC_09,Missing Name Validation,FAIL,2025-05-26 23:11:26,'name' not found in 'location captured successfully!' : Name validation error message not found
+TC_10,Invalid Location Validation,FAIL,2025-05-26 23:11:30,'location' not found in '' : Location validation error message not found
+TC_11,Page Load Performance Test,PASS,2025-05-26 23:11:34,Load time: 1.56s (Threshold: 5.0s)
