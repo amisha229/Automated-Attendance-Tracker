@@ -1,10 +1,9 @@
 
-```markdown
 # Automated Attendance Tracker
 
 A web-based attendance tracking system powered by Google Apps Script, HTML, and Python testing. This project automates attendance recording and makes managing student/employee attendance easier.
 
----
+
 
 ## 📌 Features
 - Backend written in **Google Apps Script** (`code.gs`)
@@ -12,10 +11,11 @@ A web-based attendance tracking system powered by Google Apps Script, HTML, and 
 - **Python** unit tests for validation
 - Easy deployment as a **Google Web App**
 
----
+
 
 ## 📂 Project Structure
-```
+
+```bash
 
 Automated-Attendance-Tracker/
 │
@@ -29,8 +29,6 @@ Automated-Attendance-Tracker/
 
 ```
 
----
-
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
@@ -41,7 +39,6 @@ Automated-Attendance-Tracker/
 3. Use `exampleform.html` as the frontend form.
 4. Run `test_attendance.py` to validate backend logic.
 
----
 
 ## 🛠 Tech Stack
 
@@ -49,6 +46,5 @@ Automated-Attendance-Tracker/
 * **HTML/CSS**
 * **Python (for testing)**
 
----
 
-```
+
