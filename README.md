@@ -33,7 +33,7 @@ Automated-Attendance-Tracker/
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/Automated-Attendance-Tracker.git
-```
+   ```
 
 2. Open `code.gs` in **Google Apps Script** and deploy as a **Web App**.
 3. Use `exampleform.html` as the frontend form.
