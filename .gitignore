@@ -1,7 +1,28 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-# ChromeDriver logs/screenshots
+# Node.js stuff (if ever added later)
+node_modules/
+
+# Environment files
+.env
+
+# Logs
 *.log
-*.png
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code settings
+.vscode/
+
+# Ignore compiled files
+*.exe
+*.out
+*.class
